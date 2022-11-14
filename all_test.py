@@ -1,7 +1,7 @@
-from player import Player
 import pytest
 from card import Card, InvalidColor, InvalidValue
 from deck import Deck
+from player import Player
 
 
 def test_give_calculate_points():
