@@ -57,3 +57,5 @@ class Game:
         print(f'Croupier points {croupier_points}, User points {user_points}')
         print('The end, croupier win!')
 
+
+print('hello')
