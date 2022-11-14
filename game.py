@@ -56,6 +56,3 @@ class Game:
             raise GameOverCroupierException from error
         print(f'Croupier points {croupier_points}, User points {user_points}')
         print('The end, croupier win!')
-
-
-print('hello')
