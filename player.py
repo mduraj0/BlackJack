@@ -32,3 +32,4 @@ class Player:
             raise GameOverException('Number of point exceeded')
 
         return points
+
