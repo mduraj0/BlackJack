@@ -1,5 +1,3 @@
-"""Creating deck for Black Jack game"""
-
 import random
 from card import Card
 
