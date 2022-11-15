@@ -18,7 +18,7 @@ class Game:
         croupier = Player()
         while croupier.calculate_points() < user_points:
             croupier.take_card(self.deck.hit_card())
-            print('Croupier cards:')
+            print('Croupier:')
             print(croupier.cards)
             print(croupier.calculate_points())
 
@@ -53,6 +53,7 @@ class Game:
         try:
             croupier_points = self._croupier_plays(user_points)
         except GameOverException as error:
+            print(user_points)
             raise GameOverCroupierException from error
         print(f'Croupier points {croupier_points}, User points {user_points}')
         print('The end, croupier win!')
